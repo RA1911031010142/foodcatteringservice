@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body
+{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h2
+{
+    margin: 0;
+    padding: 10px 20px;
+    background: rgb(245, 119, 2);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul
+{
+    margin: 0;
+    padding: 10px 20px;
+    border: 1px dashed rgba(0,0,0,.5);
+    border-top: none;
+}
+ul li
+{
+    list-style: none;
+    padding: 5px 0;
+    font-size: 16px;
+}
+ul li input[type="checkbox"]
+{
+    display: none;
+}
+ul li span.list
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+ul li input[type="checkbox"]:checked ~ span.list
+{
+    color: #ccc;
+}
+.card-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  
+  .card-btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+  }
+  
+  .card-btn:hover,
+  .card-btn:active {
+    background-color: #c2cffc;
+  }
+  
+  .card-btn:hover span,
+  .card-btn:active span {
+    margin-left: 1.5rem;
+  }
